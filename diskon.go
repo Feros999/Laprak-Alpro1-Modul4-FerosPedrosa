@@ -9,7 +9,6 @@ func main() {
 	fmt.Print("Masukkan Diskon (%): ")
 	fmt.Scan(&diskon)
 
-	// Menghitung total harga setelah diskon
 	totalAkhir = totalBelanja - (totalBelanja * diskon / 100)
 
 	fmt.Println("Total belanja setelah diskon:", totalAkhir)
